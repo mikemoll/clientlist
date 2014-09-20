@@ -1,4 +1,5 @@
 ActiveAdmin.register Client do
+  permit_params :first_name, :last_name, :address, :email, :phone_number, :who_refered_you
 
 
   # See permitted parameters documentation:
